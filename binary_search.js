@@ -1,7 +1,7 @@
 
 //работает только с отсортированным массивом
 
-const binary_search = (arr, target) => {
+const binarySearch = (arr, target) => {
 
   //устанавливаем указатели для границ массива - начало и конец
   let low = 0
@@ -34,4 +34,4 @@ const binary_search = (arr, target) => {
   return 'элемент не найден'
 }
 
-console.log(binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 8))
+console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 8))
